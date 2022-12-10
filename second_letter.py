@@ -1,5 +1,9 @@
 from time import time
 
+"""
+Second most frequent letter in list
+"""
+
 
 def counter(char_list: list, max_val=2) -> list:
     dict_l_c = {key: char_list.count(key) for key in set(char_list)}
